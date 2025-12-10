@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceWalk</title>
+    <link rel="stylesheet" href="SpaceWalk.css">
+</head>
+<body>
+    <marquee behavior="scroll" direction="up" id="rocket_marquee" scrollamount="20" >
+        <img id="rocket_image" src="../../../assets/image/rocket.png" alt="rocket">
+    </marquee>
+    <marquee behavior="slide" direction="left" class="astronaut_marquee related_marquee">
+       <marquee behavior="slide" direction="down" class="astronaut_marquee">
+         <img id="astronaut_image" src="../../../assets/image/astronaut.png" alt="astronaut">
+       </marquee>
+    </marquee>
+    <marquee behavior="scroll" direction="right" class="asteroids_marquee related_marquee" id="marquee_astronaut">
+        <marquee behavior="" direction="down" class="asteroids_marquee">
+            <img id="image_asteroids" src="../../../assets/image/asteroids.png" alt="">
+        </marquee>
+    </marquee>
+</body>
+</html>
